@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MATS_Driver</string>
+    <string name="title_activity_maps">MATS Driver</string>
+    <string name="vi_tri">PASSENGER LOCATION</string>
+</resources>

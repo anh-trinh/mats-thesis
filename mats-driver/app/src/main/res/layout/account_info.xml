@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_account_circle_black_48dp"
+        android:layout_above="@+id/name_edit"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Email"
+        android:ems="10"
+        android:id="@+id/email_edit"
+        android:layout_above="@+id/phone_edit"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/phone_edit"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/email_edit"
+        android:layout_alignStart="@+id/email_edit" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:ems="10"
+        android:id="@+id/password_edit"
+        android:layout_below="@+id/phone_edit"
+        android:layout_alignLeft="@+id/phone_edit"
+        android:layout_alignStart="@+id/phone_edit" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Your Name"
+        android:ems="10"
+        android:id="@+id/name_edit"
+        android:layout_above="@+id/email_edit"
+        android:layout_alignLeft="@+id/email_edit"
+        android:layout_alignStart="@+id/email_edit" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Car Type"
+        android:ems="10"
+        android:id="@+id/cartype_edit"
+        android:layout_below="@+id/password_edit"
+        android:layout_alignLeft="@+id/password_edit"
+        android:layout_alignStart="@+id/password_edit" />
+
+    <Button
+        android:text="Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/save_account_button"
+        android:layout_below="@+id/cartype_edit"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

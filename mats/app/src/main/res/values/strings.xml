@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MATS</string>
+    <string name="title_activity_maps">MATS</string>
+    <string name="search_actionbar">Search</string>
+    <string name="signout_actionbar">Sign Out</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+</resources>
